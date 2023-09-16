@@ -14,7 +14,7 @@ import mongoose from "mongoose";
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
 mongoose.connect(CONNECTION_STRING);
 
-const allowedOrigins = [process.env.FRONTEND_URL,'https://qin-wang-pan-foodadvisor.netlify.app'];
+const allowedOrigins = [process.env.FRONTEND_URL,'https://secret-love-story.netlify.app'];
 const app = express();
 app.use(
     cors({

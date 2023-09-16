@@ -1,0 +1,34 @@
+{
+  "type": "module",
+  "name": "secretlovestory-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for the SecretLoveStory application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Weicong Qin, Hanlun Wang, L&A Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.4.3"
+  }
+}
